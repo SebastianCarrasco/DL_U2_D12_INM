@@ -1,0 +1,79 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0; /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el padding por defecto de todos los elementos */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente principal del documento */
+    background-color: #f4f4f4; /* Establece un color de fondo gris claro */
+    display: flex; /* Utiliza Flexbox para alinear el contenido */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+header {
+    background-color: #007BFF; /* Color de fondo azul para el encabezado */
+    color: white; /* Color de texto blanco */
+    padding: 10px; /* Espaciado interno de 10px */
+    width: 100%; /* El ancho del encabezado ocupa el 100% del viewport */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de las listas */
+    padding: 0; /* Elimina el padding interno de la lista */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Margen de 10px a los lados de cada elemento */
+}
+
+nav ul li a {
+    color: white; /* Color de texto blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+main {
+    margin: 20px; /* Margen de 20px alrededor del contenido principal */
+    width: 80%; /* El contenido ocupa el 80% del ancho del viewport */
+}
+
+.propiedades {
+    display: flex; /* Utiliza Flexbox para el diseño de las propiedades */
+    flex-wrap: wrap; /* Permite que las propiedades se ajusten a nuevas filas si es necesario */
+    justify-content: space-around; /* Distribuye el espacio uniformemente alrededor de las propiedades */
+}
+
+.propiedad {
+    background-color: white; /* Fondo blanco para cada propiedad */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px; /* Margen de 10px alrededor de cada propiedad */
+    padding: 10px; /* Espaciado interno de 10px */
+    width: 300px; /* Ancho fijo de 300px para cada propiedad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de las propiedades */
+}
+
+.propiedad img {
+    max-width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+
+button {
+    background-color: #28a745; /* Color de fondo verde para los botones */
+    color: white; /* Color de texto blanco */
+    padding: 10px; /* Espaciado interno de 10px */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Bordes redondeados para los botones */
+    cursor: pointer; /* Muestra el cursor de mano al pasar por encima */
+}
+
+button:hover {
+    background-color: #218838; /* Color de fondo más oscuro al pasar el mouse */
+}

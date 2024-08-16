@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria - Inicio</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Inmobiliaria</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="propiedades_venta.html">Propiedades en Venta</a></li>
+                <li><a href="propiedades_alquiler.html">Propiedades en Alquiler</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="venta">
+            <h2>Propiedades en Venta</h2>
+            <div id="propiedades-venta" class="propiedades"></div>
+            <button onclick="window.location.href='propiedades_venta.html'">Ver más propiedades en venta</button>
+        </section>
+
+        <section id="alquiler">
+            <h2>Propiedades en Alquiler</h2>
+            <div id="propiedades-alquiler" class="propiedades"></div>
+            <button onclick="window.location.href='propiedades_alquiler.html'">Ver más propiedades en alquiler</button>
+        </section>
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
